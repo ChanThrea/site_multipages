@@ -1,0 +1,108 @@
+<!DOCTYPE html <html lang='fr'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <meta name='description' content='Mes images en HTML / CSS'>
+    <meta name='author' content='Chanrothmony Khy'>
+    <title>Ma page images</title>
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=Open+Sans:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- CDN de Font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Mon CSS-->
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="#logo">
+                <button type="button">
+                    <i class="fas fa-arrow-circle-up"></i>
+                </button>
+            </a>
+
+            <img src="img/logo.png" alt="css 3, html 5">
+        </div>
+
+        <div id="slogan">
+            <h1>Mon premier site HTML/CSS</h1>
+        </div>
+
+        <div id="social">
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+                <a href="https://wwww.instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+        </div>
+
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+        <div class="ancreNav">
+            <a href="index.html">Structure</a>
+            <a href="texte.html">Textes</a>
+            <a href="selecteur.html" >Sélecteurs</a>
+            <a href="image.html" class="activ">Images</a>
+            <a href="position.html">Positions</a>
+            <a href="tableau.html">Tableaux</a>
+            <a href="zoning.html">Zoning</a>
+            <a href="listes.html">Listes</a>
+            <a href="lien_menu.html">Liens & menus</a>
+            <a href="formulaire.html">Formulaires</a>
+            <a href="multimedia.html">Multimedias</a>
+            <a href="animation.html">Animations</a>
+        </div>
+    </nav>
+
+    <main>
+        <h2>Images</h2>
+        <section class="imageFond">
+            <h3>Image de fond en CSS</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga veniam nobis necessitatibus, sapiente
+                facilis quos adipisci harum! Quaerat iste incidunt adipisci in ipsam provident ex voluptas facilis
+                maxime nulla, aspernatur, deserunt quam ipsa rem? Aliquam eveniet eaque consectetur blanditiis dolor
+                vitae aut, nisi recusandae placeat! Sit, quasi ipsam reprehenderit numquam voluptate quaerat officia et
+                nisi optio eos similique harum doloremque molestias nostrum laboriosam consequatur quis, sed veritatis
+                magni repellat nam. Repellendus excepturi dicta molestias culpa, sint voluptatibus tenetur alias
+                voluptatem.
+            </p>
+        </section>
+
+        <section>
+            <h3>Images dans HTML</h3>
+            <figure>
+                <img src="img/toureiffel.jpg" alt="Cette photo montre la Tour Eiffel" title="La Tour Eiffel">
+                
+                <figcaption>Une photo de la Tour Eiffel qui se trouve à Paris</figcaption>
+            </figure>
+        </section>
+
+        <section class="rotationImg">
+            <h3>Images en HTML et CSS</h3>
+            <img src="img/image.jpg" alt="" class="image">
+            <img src="img/image.jpg" alt="" class="image">
+            <img src="img/image.jpg" alt="" class="rotation360 image">
+        </section>
+    </main>
+
+    <footer>
+        <!-- Liens administratifs, mentions légales, plan du site, cgu et cgv, contact, copyright-->
+        <small>&copy; 2021 le PoleS</small>
+    </footer>
+</body>
+
+</html>
